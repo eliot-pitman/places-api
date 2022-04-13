@@ -1,0 +1,19 @@
+POST http://localhost:3000/places 
+Content-Type: application/json
+
+{
+  "name":"cool place",
+  "address":"blah blah blah"
+}
+
+### update
+PATCH http://localhost:3000/places/21
+Content-Type: application/json
+
+{
+  "name":"not a cool place"
+}
+
+### destroy
+DELETE http://localhost:3000/places/50
+
